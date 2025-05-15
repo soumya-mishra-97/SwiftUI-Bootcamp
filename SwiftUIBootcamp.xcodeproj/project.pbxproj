@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		774BE9B42DC8C44B0037A67B /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774BE9B32DC8C44B0037A67B /* NavigationViewBootcamp.swift */; };
 		776C022E2D9FF94700529BE1 /* AnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C022D2D9FF94700529BE1 /* AnimationTimingBootcamp.swift */; };
 		776C02302DA0512E00529BE1 /* TransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C022F2DA0512E00529BE1 /* TransitionBootcamp.swift */; };
 		776C02322DA06D4700529BE1 /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C02312DA06D4700529BE1 /* SheetsBootcamp.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		774BE9B32DC8C44B0037A67B /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
 		776C022D2D9FF94700529BE1 /* AnimationTimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootcamp.swift; sourceTree = "<group>"; };
 		776C022F2DA0512E00529BE1 /* TransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootcamp.swift; sourceTree = "<group>"; };
 		776C02312DA06D4700529BE1 /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				776C022F2DA0512E00529BE1 /* TransitionBootcamp.swift */,
 				776C02312DA06D4700529BE1 /* SheetsBootcamp.swift */,
 				77CAED072DA2FB9D007CE73F /* PopoverBootcamp.swift */,
+				774BE9B32DC8C44B0037A67B /* NavigationViewBootcamp.swift */,
 				77DB90112DC3FAF10046D3F2 /* MountainCanvasView.swift */,
 				CAF51EC62D51FB4E007BEBE9 /* Assets.xcassets */,
 				CAF51EC82D51FB4E007BEBE9 /* Preview Content */,
@@ -314,6 +317,7 @@
 				CAF51EC32D51FB4D007BEBE9 /* SwiftUIBootcampApp.swift in Sources */,
 				CA3993C72D5A8BF0008BF109 /* SpacerBootcamp.swift in Sources */,
 				CA7380F62D552EC500D78B03 /* ImageBootcamp.swift in Sources */,
+				774BE9B42DC8C44B0037A67B /* NavigationViewBootcamp.swift in Sources */,
 				CA05AC192D64842C00D3B5F1 /* GridBootcamp.swift in Sources */,
 				77F313072D9EC792004C1587 /* AnimationBootcamp.swift in Sources */,
 				CA7380F42D55271000D78B03 /* IconsBootcamp.swift in Sources */,

@@ -38,7 +38,7 @@ struct AnimationTimingBootcamp: View {
                     .foregroundColor(.white)
                     .cornerRadius(25)
             }.padding(.bottom, 20)
-           
+            
             Text("Spring Animation: Customize the Start & End Animation")
                 .font(.system(size: 14))
             RoundedRectangle(cornerRadius: 25)
@@ -47,32 +47,32 @@ struct AnimationTimingBootcamp: View {
                 .animation(.spring(
                     response: 0.5,
                     dampingFraction: 0.5,
-                    blendDuration: 1.0))
+                    blendDuration: 1.0), value: isAnimating)
             
             Text("Linear Animation: Start & End Animation at Same Time")
                 .font(.system(size: 14))
             RoundedRectangle(cornerRadius: 25)
                 .fill(Color.black)
                 .frame(width: isAnimating ? 300 : 100, height: 100)
-                .animation(.linear(duration: timing))
+                .animation(.linear(duration: timing), value: isAnimating)
             Text("EaseIn Animation: Start -> Slow & End -> Fast Animation")
                 .font(.system(size: 14))
             RoundedRectangle(cornerRadius: 25)
                 .fill(Color.black)
                 .frame(width: isAnimating ? 300 : 100, height: 100)
-                .animation(.easeIn(duration: timing))
+                .animation(.easeIn(duration: timing), value: isAnimating)
             Text("EaseInOut Animation: Slow Fast Slow Animation")
                 .font(.system(size: 14))
             RoundedRectangle(cornerRadius: 25)
                 .fill(Color.black)
                 .frame(width: isAnimating ? 300 : 100, height: 100)
-                .animation(.easeInOut(duration: timing))
+                .animation(.easeInOut(duration: timing), value: isAnimating)
             Text("EaseOut Animation: Start -> Fast & End -> Slow Animation")
                 .font(.system(size: 14))
             RoundedRectangle(cornerRadius: 25)
                 .fill(Color.black)
                 .frame(width: isAnimating ? 300 : 100, height: 100)
-                .animation(.easeOut(duration: timing))
+                .animation(.easeOut(duration: timing), value: isAnimating)
         }
     }
 }
